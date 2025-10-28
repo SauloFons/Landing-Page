@@ -13,6 +13,10 @@
     
 }
 
+.menu-space{
+    height: 6.8rem;
+}
+
 .menu h1 {
     font-size: 3.0rem;
 }
@@ -36,4 +40,8 @@
 .menu ul li a:hover::after{
     width: 50%;
     left: 25%;
+}
+
+.menu{
+    z-index: 3;
 }
