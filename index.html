@@ -1,55 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LANDING PAGE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato&display=swap" rel="stylesheet">    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/elements.css">
     <link rel="stylesheet" href="assets/css/classes.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/variables.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body class="main-bg">
     <aside class="menu white-bg">
         <div class="menu-content">
-        <h1>
-            <a href="#">LOGO</a>
-        </h1>
-        <nav>
-            <ul >
-                <li><a href="#">intro</a></li>
-                <li><a href="#">top 3</a></li>
-                <li><a href="#">gallery</a></li>
-                <li><a href="#">work</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
-    </div>
+            <h1>
+                <a href="#">LOGO</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top3">top 3</a></li>
+                    <li><a href="#grid-one">grid-one</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                </ul>
+            </nav>
+        </div>
     </aside>
 
-     <div class = "menu-space"></div>
+    <div class="menu-space"></div>
 
-    <section class="main-bg section intro">
+    <section id='intro' class="main-bg section intro">
         <div class="main-content intro-content">
-        <div class="intro-text-content">
-        <h2>Learn to Code</h2>
-        <p>If you want to create your own website, check out W3Schools Spaces.
-        It is free to use, and does not require any setup Code snippets for HTML, CSS and JavaScript</p>
-        </div>
-        <div class="intro-img">
-            <img src="assets/img/html.svg" alt="HTML/CSS/JS">
-        </div>
+            <div class="intro-text-content">
+                <h2>Learn to Code</h2>
+                <p>If you want to create your own website, check out W3Schools Spaces.
+                    It is free to use, and does not require any setup Code snippets for HTML, CSS and JavaScript</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/html.svg" alt="HTML/CSS/JS">
+            </div>
         </div>
     </section>
 
+
+    <section id="top3" class="white-bg section ">
+        <div class="main-content top3-content ">
+            <h2>TOP 3 LANGUAGES</h2>
+            <p> <strong> Python:</strong>
+                Highly versatile and widely used in data science, machine learning, web development, automation, and
+                more. Its clear syntax and extensive libraries contribute to its popularity.</p>
+            <p> <strong> JavaScript: </strong>
+                Essential for web development, enabling interactive and dynamic content on websites. With Node.js, it
+                also extends to server-side applications.</p>
+            <p> <strong> Java: </strong>
+                A robust, object-oriented language frequently used for large-scale enterprise applications, Android app
+                development, and various back-end systems.</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="section main-bg intro grid-one">
+        <div class="grid-one-content">
+            <h2 class="grid-main-heading">where to learn</h2>
+            <p class="grid-description">Descrição</p>
+            <div class="grid"> 
+                <article>
+                <h3>Teste1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo voluptas eius, ducimus libero eum quidem recusandae iste repellendus! Maxime corrupti sapiente temporibus aut explicabo at eaque, commodi delectus quo odio? </p>
+                </article>
+                <article>
+                <h3>Teste2</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo voluptas eius, ducimus libero eum quidem recusandae iste repellendus! Maxime corrupti sapiente temporibus aut explicabo at eaque, commodi delectus quo odio? </p>
+                </article>
+                <article>
+                <h3>Teste3</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo voluptas eius, ducimus libero eum quidem recusandae iste repellendus! Maxime corrupti sapiente temporibus aut explicabo at eaque, commodi delectus quo odio? </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section white-bg intro grid-one">
+        <div class="grid-two-content">
+            <h2 class="grid-main-heading grid-gallery-heading">Gallery</h2>
+            <p class="grid-description grid-gallery-description">Images</p>
+            <div class="grid"> 
+                <div class="gallery-img">
+                 <img src="https://picsum.photos/360/360?r=1" alt="random imaem from picsum">
+                </div>
+                <div class="gallery-img">
+                 <img src="https://picsum.photos/360/360?r=2" alt="random imaem from picsum">
+                </div>
+                <div class="gallery-img">
+                 <img src="https://picsum.photos/360/360?r=3" alt="random imaem from picsum">
+                 </div> 
+                <div class="gallery-img">
+                 <img src="https://picsum.photos/360/360?r=4" alt="random imaem from picsum">
+                </div>
+                <div class="gallery-img">
+                 <img src="https://picsum.photos/360/360?r=5" alt="random imaem from picsum">
+                 </div>
+                <div class="gallery-img">
+                 <img src="https://picsum.photos/360/360?r=6" alt="random imaem from picsum">
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
     
-    <section class="white-bg section"></section>
+    
+    <section id="pricing" class="main-bg section ">
+        <div class="main-content top3-content ">
+            <h2>Pricing</h2>
+            <div class="responsive-table">
+            <table>
+                <caption>Pricing table</caption>
+                <thead>
+                    <tr>
+                    <th>Title 1</th>
+                    <th>Title 2</th>
+                    <th>Title 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                    </tr>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                    </tr>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                    </tr>
+                    <tr>
+                        <td>Content 1</td>
+                        <td>Content 2</td>
+                        <td>Content 3</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Teste</td>
+                    </tr>
+                </tfoot>
+            </table>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
