@@ -163,7 +163,6 @@ table caption{
 
 .section{
     min-height: 100vh;
-    
 }
 
 
@@ -194,12 +193,13 @@ table caption{
     margin-left: 2rem;    
 }
 .grid-two-content{
-    display: flex;
+    display: grid;
     flex-flow: column wrap;  
     justify-content: center;
-    min-height: 140vh;
-    margin-left: 2rem;   
+    min-height: 130vh;
+    margin-left: 2rem;
 }
+
 
 .grid-main-heading{
     margin-top: 1rem;
@@ -214,6 +214,7 @@ table caption{
     grid-template-columns: repeat(3,1fr);
     gap: var(--gap);
     counter-reset: grid-counter;
+
 }
 
 .grid h3{
